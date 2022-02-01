@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
             HealthBar.value = Health;
             Debug.Log("Вам нанесли урон в размере" + Count);
         }
-        else if (Health <= 0) GameOver();
+        else if (Health <= 0 || Player.transform.position.y == -20) GameOver();
     }
 
 
@@ -49,6 +49,6 @@ public class GameManager : MonoBehaviour
     public void AddScore(int Count)
     {
         TotalScore += Count;       
-        Debug.Log("Итоговый счёт: " + TotalScore);        
+        
     }
 }
