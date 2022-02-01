@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PickupObject : MonoBehaviour
 {
-    //[SerializeField] public ParticleSystem DestroyParticle;
 
     public int ScoreCount;
 
@@ -17,8 +16,6 @@ public class PickupObject : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //DestroyParticle.transform.parent = null;
-        //DestroyParticle.Play();
         Destroy(gameObject);
         _GameManager.AddScore(ScoreCount);
     }

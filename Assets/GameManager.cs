@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public Text ScoreText;
     public Slider HealthBar;
     public Image DeathScreen;
 
@@ -49,12 +48,7 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int Count)
     {
-        TotalScore += Count;
-        ScoreText.text = "Score: " + TotalScore;
-        Debug.Log("»тоговый счЄт: " + TotalScore);
-        if(TotalScore == 60)
-        {
-            SceneManager.LoadScene(0);
-        }
+        TotalScore += Count;       
+        Debug.Log("»тоговый счЄт: " + TotalScore);        
     }
 }
