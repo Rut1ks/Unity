@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
     public int AttackCountdownSeconds = 1;
 
-    private bool EnableAttack = true;
+    private bool EnableAttack = true;    
 
     private void SetRotationOnMove()
     {
