@@ -51,4 +51,9 @@ public class GameManager : MonoBehaviour
         TotalScore += Count;       
         
     }
+
+    public void AddHealth (int Count)
+    {
+        Health += Count;
+    }
 }

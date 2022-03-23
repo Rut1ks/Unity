@@ -6,6 +6,7 @@ public class PickupObject : MonoBehaviour
 {
 
     public int ScoreCount;
+    public int HealthCount;
 
     private GameManager _GameManager;
 
@@ -18,5 +19,6 @@ public class PickupObject : MonoBehaviour
     {
         Destroy(gameObject);
         _GameManager.AddScore(ScoreCount);
+        _GameManager.AddHealth(HealthCount);
     }
 }
