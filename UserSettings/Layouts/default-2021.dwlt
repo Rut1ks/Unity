@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 153
+  controlID: 121
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 83
+  controlID: 122
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 84
+  controlID: 123
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -563,22 +563,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/LowlyPoly/Free Stylized Textures/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/LowlyPoly/Free Stylized Textures/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\artem\OneDrive\Desktop\Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 66}
-    m_SelectedIDs: a66d0000
-    m_LastClickedID: 28070
-    m_ExpandedIDs: 00000000a66d000000ca9a3bffffff7f
+    m_SelectedIDs: 446f0000
+    m_LastClickedID: 28484
+    m_ExpandedIDs: 000000008a6d0000e26e0000e86e0000406f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,7 +606,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a66d0000
+    m_ExpandedIDs: 000000008a6d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,10 +733,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
+      scrollPos: {x: 0, y: 2662}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f2f7ffff26fbffff28fbffff00670000126700001c670000
+      m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -985,9 +985,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.02248, y: 8.459046, z: 12.510439}
+    m_Target: {x: 12.450562, y: 14.191028, z: 6.5287857}
     speed: 2
-    m_Value: {x: 5.02248, y: 8.459046, z: 12.510439}
+    m_Value: {x: 12.450562, y: 14.191028, z: 6.5287857}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1034,9 +1034,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15936984, y: 0.68730503, z: -0.1586794, w: -0.69080883}
+    m_Target: {x: -0.21600714, y: 0.6449449, z: -0.19797514, w: -0.7060738}
     speed: 2
-    m_Value: {x: -0.15959309, y: 0.68620527, z: -0.15842567, w: -0.6917758}
+    m_Value: {x: -0.2162663, y: 0.64377326, z: -0.19761659, w: -0.70691764}
   m_Size:
     m_Target: 3.021912
     speed: 2
@@ -1116,8 +1116,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -414
     m_HBaseRangeMax: 414
-    m_VBaseRangeMin: -285
-    m_VBaseRangeMax: 285
+    m_VBaseRangeMin: -295.5
+    m_VBaseRangeMax: 295.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1134,11 +1134,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 828
-      height: 570
+      height: 591
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 414, y: 285}
+    m_Translation: {x: 414, y: 295.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1146,9 +1146,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -414
-      y: -285
+      y: -295.5
       width: 828
-      height: 570
+      height: 591
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 828, y: 591}
