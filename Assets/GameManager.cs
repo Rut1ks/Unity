@@ -48,12 +48,12 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int Count)
     {
-        TotalScore += Count;       
-        
+        TotalScore += Count;         
     }
 
     public void AddHealth (int Count)
     {
         Health += Count;
     }
+
 }

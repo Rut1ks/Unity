@@ -141,4 +141,8 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawLine(transform.position, transform.position + (Vector3.down * DestinationToGround));
         Gizmos.DrawSphere(AttackPoint.transform.position, AttackRange);
     }
+    public void AddStr(int Count)
+    {
+        Strength += Count;
+    }
 }
