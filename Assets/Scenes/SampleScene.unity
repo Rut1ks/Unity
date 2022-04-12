@@ -35381,7 +35381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507648399253011944, guid: a52e1764aa90ca3469293380cd14f210, type: 3}
       propertyPath: StrenghtCount
-      value: 30
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7681126693004518298, guid: a52e1764aa90ca3469293380cd14f210, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -74660,7 +74660,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh25570
+  m_Name: pb_Mesh26338
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
