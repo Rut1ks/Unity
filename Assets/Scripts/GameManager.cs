@@ -48,7 +48,11 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int Count)
     {
-        TotalScore += Count;         
+        TotalScore += Count;
+        if (TotalScore == 4)
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     public void AddHealth (int Count)
