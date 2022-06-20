@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public Slider HealthBar;
     public Image DeathScreen;
 
-    private int TotalScore;
+    public int TotalScore;
 
     public int Health = 100;
 
@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
     public void AddScore(int Count)
     {
         TotalScore += Count;
-        if (TotalScore == 4)
+        if (TotalScore == 10)
         {
             SceneManager.LoadScene(1);
         }

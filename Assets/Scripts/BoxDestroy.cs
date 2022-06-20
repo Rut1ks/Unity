@@ -24,6 +24,4 @@ public class BoxDestroy : MonoBehaviour, IAttackable
         DamageParticle.Play();
         Destroy(gameObject);
     }
-
-
 }
